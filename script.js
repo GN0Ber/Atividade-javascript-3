@@ -61,6 +61,31 @@ else if(idade<= 50){
 else{
     document.write("É um idoso.")
 }
+
+
+// E: &&
+
+let val1 = 15
+
+if (val1 > 10 && val1 < 20){
+    document.write("Valor é VALIDO")
+    document.write("<br><br>")
+}else{
+    document.write("Valor é INVALIDO")
+    document.write("<br><br>")
+}
+
+// OU: ||
+
+let val2 = 25
+
+if (val2 > 20 || val2 < 20){
+    document.write("Valor é VERDADEIRO")
+    document.write("<br><br>")
+}else{
+    document.write("Valor é FALSO")
+    document.write("<br><br>")
+}
 */
 
 // Desafio
